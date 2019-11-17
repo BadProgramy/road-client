@@ -1065,8 +1065,9 @@ id center_horizontal
 id center_vertical
 id chains
 id checkbox
-id choise
+id choiseCity
 id chronometer
+id cities
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1076,6 +1077,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id cv
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1133,6 +1135,7 @@ id navigation_header_container
 id never
 id none
 id normal
+id not_response_to_server
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1145,12 +1148,14 @@ id parent_matrix
 id password
 id percent
 id pin
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
 id right
 id right_icon
 id right_side
+id rv
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1202,7 +1207,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView2
 id text_input_password_toggle
 id textinput_counter
@@ -1279,6 +1283,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_city
 layout activity_login
+layout activity_road_problem
+layout card_view_road_problem
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1357,8 +1363,10 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string invalid_password
 string invalid_username
+string label_choose_city
 string login_failed
 string mtrl_chip_close_icon_content_description
+string not_response_to_server
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

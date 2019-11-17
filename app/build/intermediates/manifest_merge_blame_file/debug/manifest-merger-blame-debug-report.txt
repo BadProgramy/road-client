@@ -6,63 +6,66 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml
+8-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml
+9-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:6:5-24:19
+13-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:7:5-25:19
 14        android:allowBackup="true"
-14-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:8:9-35
+14-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.2] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\def65468373bb9da82599306b6802513\core-1.0.2\AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.2] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\def65468373bb9da82599306b6802513\core-1.0.2\AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:9:9-43
+17-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:9:9-43
 18        android:label="@string/app_name"
-18-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:10:9-41
+18-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:11:9-54
+19-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:12:9-35
+20-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity android:name="com.example.drive.CityActivity" />
-23-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:14:9-59
-23-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:14:19-47
-24        <activity
-24-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:15:9-23:20
-25            android:name="com.example.drive.ui.login.LoginActivity"
-25-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:16:13-51
-26            android:label="@string/app_name" >
-26-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:17:13-45
-27            <intent-filter>
-27-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33
-34        <provider
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-35            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-36            android:authorities="com.example.drive.lifecycle-process"
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-37            android:exported="false"
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-38            android:multiprocess="true" />
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-39    </application>
-40
-41</manifest>
+22-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.drive.RoadProblemActivity" />
+23-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:14:9-66
+23-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:14:19-54
+24        <activity android:name="com.example.drive.CityActivity" />
+24-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:15:9-50
+24-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:15:19-47
+25        <activity
+25-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:16:9-24:20
+26            android:name="com.example.drive.ui.login.LoginActivity"
+26-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:17:13-51
+27            android:label="@string/app_name" >
+27-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:18:13-45
+28            <intent-filter>
+28-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+37            android:authorities="com.example.drive.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+40    </application>
+41
+42</manifest>

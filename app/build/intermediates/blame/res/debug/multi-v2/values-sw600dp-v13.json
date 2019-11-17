@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\BadProgrammy\\StudioProjects\\road-client\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\airat\\AndroidStudioProjects\\road-client\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\BadProgrammy\\.gradle\\caches\\transforms-2\\files-2.1\\e41f71d9f1ef1cdd1e3097721e614bd6\\appcompat-1.0.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\airat\\.gradle\\caches\\transforms-2\\files-2.1\\e41f71d9f1ef1cdd1e3097721e614bd6\\appcompat-1.0.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\BadProgrammy\\.gradle\\caches\\transforms-2\\files-2.1\\4ec01f326beb0aa8cab21d0cad026ab0\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\airat\\.gradle\\caches\\transforms-2\\files-2.1\\4ec01f326beb0aa8cab21d0cad026ab0\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

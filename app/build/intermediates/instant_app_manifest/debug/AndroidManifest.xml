@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.drive.RoadProblemActivity" />
         <activity android:name="com.example.drive.CityActivity" />
         <activity
             android:name="com.example.drive.ui.login.LoginActivity"
