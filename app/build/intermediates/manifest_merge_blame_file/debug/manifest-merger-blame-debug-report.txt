@@ -6,66 +6,132 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml
+8-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:7:5-25:19
-14        android:allowBackup="true"
-14-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.2] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\def65468373bb9da82599306b6802513\core-1.0.2\AndroidManifest.xml:22:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:12:9-35
-21        android:testOnly="true"
-22        android:theme="@style/AppTheme" >
-22-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:13:9-40
-23        <activity android:name="com.example.drive.RoadProblemActivity" />
-23-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:14:9-66
-23-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:14:19-54
-24        <activity android:name="com.example.drive.CityActivity" />
-24-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:15:9-50
-24-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:15:19-47
-25        <activity
-25-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:16:9-24:20
-26            android:name="com.example.drive.ui.login.LoginActivity"
-26-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:17:13-51
-27            android:label="@string/app_name" >
-27-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:18:13-45
-28            <intent-filter>
-28-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:19:13-23:29
-29                <action android:name="android.intent.action.MAIN" />
-29-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:20:17-69
-29-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:20:25-66
-30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:22:17-77
-31-->C:\Users\airat\AndroidStudioProjects\road-client\app\src\main\AndroidManifest.xml:22:27-74
-32            </intent-filter>
-33        </activity>
-34
-35        <provider
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-37            android:authorities="com.example.drive.lifecycle-process"
-37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-38            android:exported="false"
-38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-39            android:multiprocess="true" />
-39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\airat\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-40    </application>
-41
-42</manifest>
+9-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <!-- Include required permissions for Google Maps API to run. -->
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:12:5-46:19
+26        android:allowBackup="true"
+26-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.2] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\def65468373bb9da82599306b6802513\core-1.0.2\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity android:name="com.example.drive.AddRoadProblemActivity" />
+35-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:19:9-69
+35-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:19:19-57
+36        <!--
+37             The API key for Google Maps-based APIs is defined as a string resource.
+38             (See the file "res/values/google_maps_api.xml").
+39             Note that the API key is linked to the encryption key used to sign the APK.
+40             You need a different API key for each encryption key, including the release key that is used to
+41             sign the APK for publishing.
+42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+43        -->
+44        <meta-data
+44-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:28:9-30:55
+45            android:name="com.google.android.geo.API_KEY"
+45-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:29:13-58
+46            android:value="@string/google_maps_key" />
+46-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:30:13-52
+47
+48        <activity
+48-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:32:9-34:71
+49            android:name="com.example.drive.RoadProblemMapActivity"
+49-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:33:13-51
+50            android:label="@string/title_activity_road_problev_map" />
+50-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:34:13-68
+51        <activity android:name="com.example.drive.RoadProblemActivity" />
+51-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:35:9-57
+51-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:35:19-54
+52        <activity android:name="com.example.drive.CityActivity" />
+52-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:36:9-50
+52-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:36:19-47
+53        <activity
+53-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:37:9-45:20
+54            android:name="com.example.drive.ui.login.LoginActivity"
+54-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:38:13-51
+55            android:label="@string/app_name" >
+55-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:39:13-45
+56            <intent-filter>
+56-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:40:13-44:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:41:17-69
+57-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:41:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:43:17-77
+59-->C:\Users\BadProgrammy\StudioProjects\road-client\app\src\main\AndroidManifest.xml:43:27-74
+60            </intent-filter>
+61        </activity>
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fe908709430ea30ca98615adf0708c69\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fcbfdbf084f54dd4807087bf81d2d4ae\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fcbfdbf084f54dd4807087bf81d2d4ae\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fcbfdbf084f54dd4807087bf81d2d4ae\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fcbfdbf084f54dd4807087bf81d2d4ae\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\49a14a7815eb18adbe6abe2eea8f7fed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\49a14a7815eb18adbe6abe2eea8f7fed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\49a14a7815eb18adbe6abe2eea8f7fed\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+75
+76        <provider
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+78            android:authorities="com.example.drive.lifecycle-process"
+78-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+79            android:exported="false"
+79-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+80            android:multiprocess="true" />
+80-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\BadProgrammy\.gradle\caches\transforms-2\files-2.1\fb71fa32a3673507736d51985cfac2d5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+81    </application>
+82
+83</manifest>

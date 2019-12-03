@@ -10,5 +10,6 @@
     <string name="string_city">"Выберите город из списка:"</string>
     <string name="label_choose_city">Выберите город</string>
     <string name="not_response_to_server">Нет ответа от сервера</string>
+    <string name="title_activity_road_problev_map">Карта</string>
 
 </resources>

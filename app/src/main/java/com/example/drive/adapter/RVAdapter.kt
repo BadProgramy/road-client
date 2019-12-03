@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.drive.RoadProblemActivity
 import com.example.drive.model.RoadProblem
 
 class RVAdapter internal constructor(internal var cards: List<RoadProblem>) :
@@ -18,6 +19,7 @@ class RVAdapter internal constructor(internal var cards: List<RoadProblem>) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         val cv = LayoutInflater.from(parent.context)
             .inflate(R.layout.card_view_road_problem, parent, false) as CardView
+        cv.setOnClickListener(RoadProblemActivity.roadProblemOnClickListener)
         return CardViewHolder(cv)
     }
 
